@@ -1,6 +1,6 @@
 {
   "name": "liftie",
-  "version": "3.39.1",
+  "version": "3.52.5",
   "description": "Clean, simple, easy to read, fast ski resort lift status",
   "keywords": [
     "ski",
@@ -26,7 +26,10 @@
     "rating": "ro-rating",
     "swipe": "@pirxpilot/swipe"
   },
-  "repository": "pirxpilot/liftie",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pirxpilot/liftie.git"
+  },
   "scripts": {
     "start": "node app.js",
     "test": "make lint test"
@@ -35,41 +38,42 @@
     "@pirxpilot/jade-core": "^1.12.1",
     "@pirxpilot/k": "^1.0.0",
     "@pirxpilot/swipe": "^2.0.2",
-    "async": "~3",
-    "connect-cachify-static": "^1.5.1",
-    "connect-gzip-static": "^2.1.1",
+    "connect-cachify-static": "^4.0.0",
+    "connect-gzip-static": "^4.0.0",
     "cookie-parser": "^1.4.3",
-    "css-select": "~4",
-    "debounce": "^1.0.0",
+    "css-select": "~5",
+    "debounce": "^2.0.0",
     "debug": "~4",
-    "domready": "^1.0.8",
+    "domelementtype": "^2.3.0",
+    "domhandler": "~5",
     "dynload": "^1.0.2",
     "el-component": "^1.0.1",
     "errorhandler": "^1.5.0",
+    "esbuild": "^0.20.1",
     "express": "^4.16.2",
-    "htmlparser2": "~7",
-    "js-cookie": "^2.2.1",
-    "limiter": "~1",
+    "htmlparser2": "~9",
+    "js-cookie": "^3.0.5",
+    "limiter": "~2.1.0",
     "lodash": "^4.16.6",
     "morgan": "^1.9.0",
     "qs": "^6.3.0",
     "ro-rating": "^1.0.2",
-    "superagent": "~6",
-    "terser": "^5.6.0",
+    "superagent": "~9",
     "tiny-pager": "^1.0.0",
-    "to-title-case": "^1.0.0",
-    "tweet-html": "^2.1.0"
+    "to-title-case": "^1.0.0"
   },
   "devDependencies": {
+    "@biomejs/biome": "^1.5.1",
     "@pirxpilot/replay": "^2.2.1",
-    "browserify": "~17",
-    "clean-css-cli": "^5.1.0",
-    "commander": "~2",
-    "jshint": "~2",
-    "postcss-cachify": "^1.4.0",
-    "postcss-cli-simple": "~3",
+    "clean-css-cli": "^5.6.3",
+    "commander": "~12.0.0",
+    "postcss": "~8",
+    "postcss-cachify": "^4.0.0",
+    "postcss-cli-simple": "~4.0.0",
     "prompt": "~1",
-    "stylus": "^0.55.0",
-    "tape": "^5.0.1"
+    "stylus": "^0.63.0"
+  },
+  "engines": {
+    "node": ">= 20.1.0"
   }
 }

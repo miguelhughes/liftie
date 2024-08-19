@@ -1,4 +1,181 @@
 
+3.52.5 / 2024-07-02
+===================
+
+ * soft dependecy upgrade
+ * upgrade clean-css-cli
+
+3.52.4 / 2024-04-24
+===================
+
+ * upgrade superagent to ~9
+ * fix typos
+
+3.52.3 / 2024-04-02
+===================
+
+ * update dependencies
+
+3.52.2 / 2024-03-29
+===================
+
+ * fix Telluride resort
+ * update dependencies
+ * use `Number.*` methods instead of global scope
+ * use `node:` prefix when using Node's built-in modules
+
+3.52.1 / 2024-03-09
+===================
+
+ * remove async dependency
+ * fix Cranmore Mountain resort
+
+3.52.0 / 2024-03-01
+===================
+
+ * add Whitefish Mountain resort
+ * add Bogus Basin resort
+
+3.51.4 / 2024-02-29
+===================
+
+ * fix Mammoth Lakes
+
+3.51.3 / 2024-02-18
+===================
+
+ * fix powdr resorts
+ * use biome as a linter
+
+3.51.2 / 2024-01-03
+===================
+
+ * fix skipped test
+ * upgrade stylus to 0.62
+ * soft dependency upgrade
+ * switch from yarn to pnpm
+
+3.51.1 / 2023-12-21
+===================
+
+ * fix Boyne resorts
+
+3.51.0 / 2023-12-19
+===================
+
+ * add Campo Felice
+
+3.50.0 / 2023-12-19
+===================
+
+ * add Roccaraso
+ * add Ovindoli
+ * add Monte Amiata
+
+3.49.0 / 2023-11-27
+===================
+
+ * adjust CSS to better support long resort names
+ * add Dolomiti Superski resorts
+
+3.48.0 / 2023-11-22
+===================
+
+ * add Chamonix resort
+
+3.47.0 / 2023-11-02
+===================
+
+ * add Tignes resort
+ * add Val d'Isere resort
+ * fix lumiplan parser - title case
+
+3.46.0 / 2023-10-29
+===================
+
+ * add Friuli Venezia Giulia resorts
+
+3.45.0 / 2023-10-29
+===================
+
+ * add La Molina resort
+ * upgrade dependencies
+
+3.44.1 / 2023-10-22
+===================
+
+ * upgrade to Webcams API v3
+ * fix Cervino coordinates
+
+3.44.0 / 2023-10-20
+===================
+
+ * add Cervino resort
+ * fix Paganella resort
+ * update NOAA stations info
+
+3.43.1 / 2023-10-17
+===================
+
+ * fix catedral coordinates
+
+3.43.0 / 2023-10-14
+===================
+
+ * add Skiwelt resort
+ * add Serfaus-Fiss-Ladis resort
+ * add Monterosa resort
+
+3.42.0 / 2023-10-10
+===================
+
+ * add Alta Badia resort
+ * add Flims Laxx Falera resort
+ * replace tape with node test runner
+
+3.41.1 / 2023-04-21
+===================
+
+ * update github actions config
+
+3.41.0 / 2023-04-21
+===================
+
+ * fix vail resort parser
+ * add option to skip some tests
+ * remove support for displaying twitter resort twitter feed
+ * remove social media links
+
+3.40.4 / 2023-04-10
+===================
+
+ * improve handling `forced json` mode
+
+3.40.3 / 2022-08-28
+===================
+
+ * upgrade css-select and htmlparser2
+ * update stylus
+ * upgrade `connect-` modules to promise API version
+ * update superagent to ~8
+
+3.40.2 / 2022-08-16
+===================
+
+ * use esbuild instead of browserify/terser
+
+3.40.1 / 2022-07-25
+===================
+
+ * use only country and region tags for Catedral Alta Patagonia
+ * fix Campiglio Dolomiti resorts
+
+3.40.0 / 2022-07-17
+===================
+
+ * add Cerro Catedral resort
+ * fix links in Readme
+
 3.39.1 / 2022-03-29
 ===================
 

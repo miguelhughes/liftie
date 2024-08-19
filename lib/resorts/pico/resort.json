@@ -5,7 +5,7 @@
     "pathname": "/the-mountain/conditions-weather/lifts-trails-report"
   },
   "api": {
-    "host": "https://www.picomountain.com",
+    "host": "https://api.picomountain.com",
     "pathname": "/api/v1/dor/status"
   },
   "tags": [
@@ -19,5 +19,5 @@
     43.663277
   ],
   "twitter": "PicoMountain",
-  "noaa": "BTV/106,20"
+  "noaa": "BTV/107,21"
 }
